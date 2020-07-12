@@ -540,6 +540,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			text-align: center;
 		}
 
 			ul.icons li {
@@ -1061,7 +1062,7 @@
 			}
 
 		#banner .button {
-			min-width: 12em;
+			max-width: 12em;
 		}
 
 		#banner h2 {
@@ -1088,8 +1089,14 @@
 		padding: 4em 0 6em 0;
 	}
 
+
 		#footer a {
 			color: inherit;
+		}
+
+		#footer h2 {
+			text-align: center;
+
 		}
 
 		#footer .copyright {
